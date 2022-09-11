@@ -1,0 +1,80 @@
+body {
+    background-color: #330036;
+    font-family: 'Archivo', sans-serif;
+    color: white;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 2.3rem;
+}
+
+.contenedor-login {
+    width: 50%;
+    margin: 6rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-botones {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2.6rem;
+    gap: 4rem;
+    justify-content: center;
+}
+
+.login-element {
+    margin-bottom: 0.7rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.boton {
+    color: white;
+}
+
+.crear {
+    color: gray;
+}
+
+.boton-caja {
+    background-color: #38182F;
+    padding: 0.7rem;
+    border-radius: 30px;
+}
+
+.boton-caja:hover a {
+    color: gray;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 32px;
+    }
+    .contenedor-login {
+        width: 52%;
+    }
+    .login-element {
+        width: 70%;
+    }
+}
+
+@media (min-width: 1368px) {
+    html {
+        font-size: 42px;
+    }
+    .contenedor-login {
+        width: 65%;
+    }
+    .login-element {
+        width: 50%;
+    }
+}

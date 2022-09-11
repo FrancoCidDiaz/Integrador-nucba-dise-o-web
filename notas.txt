@@ -1,0 +1,22 @@
+Integrador nucba
+
+
+favicon
+nav bar
+portada
+imagenes
+contacto
+footer
+login
+registro
+responsive 
+vercel
+
+
+
+
+pendientes:
+
+reponsive
+
+vercel
